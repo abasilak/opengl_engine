@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{1a2c15b8-b01c-4393-9557-615ffb94d199}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SceneGraph">
+      <UniqueIdentifier>{db4ba63d-b396-40d7-b858-ea45c7a77965}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OBJ">
+      <UniqueIdentifier>{2c7626d7-289e-471d-9703-894a97d8fd09}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Source\Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Renderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\ShaderGLSL.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\HelpLib.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\SceneGraph\Root.cpp">
+      <Filter>SceneGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\SceneGraph\GroupNode.cpp">
+      <Filter>SceneGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\SceneGraph\Node.cpp">
+      <Filter>SceneGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\SceneGraph\TransformNode.cpp">
+      <Filter>SceneGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\SceneGraph\GeometryNode.cpp">
+      <Filter>SceneGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\OBJ\OBJMaterial.cpp">
+      <Filter>OBJ</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\OBJ\OGLMesh.cpp">
+      <Filter>OBJ</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\OBJ\Texture.cpp">
+      <Filter>OBJ</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\OBJ\TGA.cpp">
+      <Filter>OBJ</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\OBJ\OBJLoader.cpp">
+      <Filter>OBJ</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Light.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Scene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\ScreenQuad.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\TextRendering.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Source\Renderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\ShaderGLSL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\HelpLib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\SceneGraph\Root.h">
+      <Filter>SceneGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\SceneGraph\GroupNode.h">
+      <Filter>SceneGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\SceneGraph\Node.h">
+      <Filter>SceneGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\SceneGraph\TransformNode.h">
+      <Filter>SceneGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\SceneGraph\GeometryNode.h">
+      <Filter>SceneGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Light.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Shaders.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\OBJ\OBJMaterial.h">
+      <Filter>OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\OBJ\OGLMesh.h">
+      <Filter>OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\OBJ\Texture.h">
+      <Filter>OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\OBJ\TGA.h">
+      <Filter>OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\OBJ\OBJLoader.h">
+      <Filter>OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Model.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Scene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\ScreenQuad.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\TextRendering.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Shaders\BasicGeometry.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Shaders\BasicGeometry.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Shaders\BasicShadow.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Shaders\BasicShadow.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Shaders\BasicTextureDepth.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Shaders\BasicTextureDepth.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Shaders\BasicTextureColor.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Shaders\BasicTextureColor.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Shaders\BasicTextureColorHDR.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Shaders\BasicTextureColorHDR.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Shaders\BasicTextRendering.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Shaders\BasicTextRendering.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Shaders\BasicSpotLight.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Shaders\BasicSpotLight.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Shaders\BasicTextureNormal.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Shaders\BasicTextureNormal.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Shaders\BasicDeferredLighting.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Shaders\BasicDeferredLighting.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Shaders\BasicDeferredGBuffer.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Shaders\BasicDeferredGBuffer.vert">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
