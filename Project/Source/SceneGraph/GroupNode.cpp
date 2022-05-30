@@ -35,7 +35,7 @@ GroupNode::~GroupNode()
 	for (unsigned int i=0; i<children.size();i++)
 	{
 		Node* nd = children.at(i); 
-		//SAFE_DELETE(nd);
+		SAFE_DELETE(nd);
 	}
 	children.clear();
 }

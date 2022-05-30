@@ -32,7 +32,14 @@ m_parent(nullptr)
 // Destructor
 Node::~Node()
 {		
-
+	// If we are in a group node, it must forget us so that we are not destroyed twice.
+	GroupNode* parent = dynamic_cast<GroupNode*>(this->m_parent);
+	if (parent != nullptr)
+	{
+		std::vector<Node*>::iterator our_position =
+			std::find(parent->children.begin(), parent->children.end(), this);
+		parent->children.erase(our_position);
+	}
 }
 
 void Node::Init()
