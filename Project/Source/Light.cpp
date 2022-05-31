@@ -105,6 +105,7 @@ void SpotLight::DrawSceneToShadowFBO()
 			m_camera->m_up = vec3(0, 0, 1);
 		else
 			m_camera->m_up = vec3(0, 1, 0);
+		m_camera->ComputeWorldMatrix();
 
 		// construct the light view matrix that transforms world space to light view space (WCS -> LCS)
 		// LCS is the view space of the light, similar to ECS which is the view space for the camera
